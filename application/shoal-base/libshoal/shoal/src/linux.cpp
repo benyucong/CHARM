@@ -499,7 +499,7 @@ void** shl__malloc_replicated(size_t size,
     return tmp;
 }
 
-long shl__node_size(int node, long  *freep)
+long shl__node_size(int node, long long *freep)
 {
     return numa_node_size(node, freep);
 }
