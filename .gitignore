@@ -23,4 +23,5 @@
 *.app
 
 build/
-.cache
+.cache/
+.qodo/
